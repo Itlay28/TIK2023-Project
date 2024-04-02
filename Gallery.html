@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
         <html lang="en">
             <head>
                 <meta charset="UTF-8">
@@ -6,22 +6,86 @@
                 <title>sweetly web pribadi</title>
 
                 <style>
-                .gallery {
-                    display:list-item;       
-                    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-                    gap: 40px;
-                }
-                .gallery img {
-                    width: 300px;
-                    height: 300px;
-                    display:flex; 
-                }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; 
+            color: #faf8f8; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        h1 {
+            color: #faf8f8; 
+            text-align: center;
+            margin-top: 20px; 
+        }
+
+        
+        .gallery {
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            gap: 20px; 
+            padding: 20px; 
+        }
+
+       
+        .gallery img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 5px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        
+        .gallery img:hover {
+            transform: scale(1.05); 
+        }
+
+         
+         .button {
+                background-color: rgb(240, 1, 220); 
+                border: none;
+                color: rgb(0, 0, 0); 
+                padding: 10px 20px; 
+                text-align: center; 
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 10px;
+                cursor: pointer;
+                border-radius: 5px; 
+                transition: background-color 0.3s ease; 
+            }
+    
+           
+            .button:hover {
+                background-color: rgb(240, 1, 220) ; 
+            }
+
+            body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+    
                 </style>
             </head>
-        
+
             <body>
-                
-                
+
+
                     <h1>Korean pop</h1>      
                     <a href="index.html" target="situs pertama">
                         <button class="button">Home</button>
@@ -35,15 +99,15 @@
                     <a href="Contact.html" target="situs kedua">
                     <button class="button">Contact</button>
                     </a>
-                
+
                 <h1>Gallery</h1>
         <div class="gallery">
-        <img src="IMG_20200607_123352.jpg" alt="image">
-        <img src="IMG_20200607_123600.jpg" alt="image">
-        <img src="s (4)(1).jpg" alt="image">
-        <img src="6282251453015_status_f3c8f67ff82a447fa0f9baa20331d0f9.jpg" alt="image">
+        <img src="c:\Users\ACER\OneDrive\Documents\Tugas pemrograman web\IMG_20200607_123352.jpg" alt="image">
+        <img src="c:\Users\ACER\OneDrive\Documents\Tugas pemrograman web\IMG_20200607_123600.jpg" alt="image">
+        <img src="c:\Users\ACER\OneDrive\Documents\Tugas pemrograman web\s (4)(1).jpg" alt="image">
+        <img src="c:\Users\ACER\OneDrive\Documents\Tugas pemrograman web\6282251453015_status_f3c8f67ff82a447fa0f9baa20331d0f9.jpg" alt="image">
         </div>
-        
-                
+
+
             </body>
         </html>
