@@ -1,4 +1,4 @@
-        
+ 
             * {
                 margin: 0;
                 padding: 0;
@@ -9,26 +9,53 @@
             body {
                 font-family: Arial, sans-serif;
                 background-color: #f4f4f4; 
-                color: #333; 
+                color: #faf8f8; 
                 line-height: 1.6; 
                 margin: 0;
                 padding: 0;
-                text-align: center; 
             }
     
-            
+           
             h1 {
                 color: #faf8f8; 
+                text-align: center;
                 margin-top: 20px; 
             }
     
             
-            a {
-                text-decoration: none;
-                color: #faf8f8; 
-                margin: 10px;
+            nav {
+                text-align: center;
+                margin-bottom: 20px; 
             }
     
+            nav a {
+                text-decoration: none;
+                color: #faf8f8; 
+                margin-right: 20px; 
+            }
+    
+            
+            p {
+                margin-bottom: 20px; 
+            }
+    
+            
+            h2 {
+                color: #faf8f8; 
+                margin-top: 30px; 
+            }
+    
+            
+            ul {
+                list-style-type: none; 
+                margin-bottom: 20px; 
+            }
+    
+            
+            li {
+                margin-bottom: 10px; 
+            }
+
             
             .button {
                 background-color: rgb(240, 1, 220); 
@@ -47,7 +74,7 @@
     
             
             .button:hover {
-                background-color: rgb(240, 1, 220) ; /
+                background-color: rgb(240, 1, 220) ; 
             }
 
             body {
@@ -55,21 +82,3 @@
             margin: 0;
             padding: 0;
         }
-    
-            
-            ul {
-                list-style-type: none; 
-                margin-top: 20px; 
-            }
-    
-            
-            li {
-                margin-bottom: 10px; 
-            }
-
-            p {
-                font-family: Arial, sans-serif;
-                color: #f4f8f8; 
-                text-align: center;
-            }
-            
