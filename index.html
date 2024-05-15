@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>sweetly web pribadi</title>
         <link rel="stylesheet" href="styles 3.css">
+        <script src="script 3.js"></script>
+        
+
+        
         
            
 
@@ -39,8 +43,31 @@
             <img src="sweetlycantik.jpg" alt="image">
         </div>
 
-        <p>Terimakasih sudah berkunjung yah 🫂 </p>
+        <p>Terimakasih sudah berkunjung yah :) </p>
+         <script>
+            // Fungsi untuk mengubah warna teks secara acak
+            function changeTextColor() {
+                const colors = ['#FF5733', '#FFC300', '#33FF57', '#33BFFF', '#D133FF'];
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                const textElements = document.querySelectorAll('h1, h2, p'); // Pilih elemen teks
+                textElements.forEach(element => {
+                    element.style.color = randomColor;
+                });
+            }
+            // Fungsi untuk menampilkan pesan saat cursor di atas gambar
+            function showImageMessage() {
+                const image = document.querySelector('.image-container img');
+                image.addEventListener('mouseover', () => {
+                    alert('Anda sedang mengarahkan cursor ke gambar!');
+                });
+            }
+            // Fungsi untuk menampilkan dan menyembunyikan konten ketika tombol diklik
+            function toggleContent() {
+                const content = document.querySelector('.content');
+                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            }
+         </script>
 
 
     </body>
-</html>
+</html
